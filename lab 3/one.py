@@ -1,4 +1,5 @@
 # Encapsulation and Abstraction
+
 class Employee:
     def __init__(self):
         self.__name = None
