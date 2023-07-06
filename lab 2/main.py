@@ -17,6 +17,6 @@ class Dog(Animal):
         return f"Dog: {self.name}, Age: {self.age}, Breed: {self.breed}"
 
 animal = Animal("Max", 5)
-print(animal)
+print(animal) # output: Name: Max, Age: 5
 dog = Dog("Buddy", 3, "Labrador")
-print(dog)
+print(dog) # output: Dog: Buddy, Age: 3, Breed: Labrador

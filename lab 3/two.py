@@ -27,7 +27,7 @@ class Circle(Shape):
         return pi * (self.radius**2)
 
 rect_1 = Rectangle(50, 20)
-print("Rectangle area:", rect_1.calculate_area())
+print("Rectangle area:", rect_1.calculate_area()) # output: Rectangle area: 1000
 
 circle = Circle(10)
-print("Circle area:", circle.calculate_area())
+print("Circle area:", circle.calculate_area()) # output: Circle area: 314.1592653589793

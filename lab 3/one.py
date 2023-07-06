@@ -20,4 +20,4 @@ class Employee:
 john = Employee()
 john.set_name("John")
 john.set_salary(50000)
-print(john.get_name(), john.get_salary())
+print(john.get_name(), john.get_salary()) # output: John 50000
